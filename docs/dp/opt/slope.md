@@ -3,7 +3,7 @@ author: Marcythm, hsfzLZH1, abc1763613206, greyqz, Ir1d, billchenchina, Chrogeek
 ## 例题引入
 
 ???+note "[「HNOI2008」玩具装箱](https://loj.ac/problem/10188)"
-    有 $n$ 个玩具，第 $i$ 个玩具价值为 $c_i$。要求将这 $n$ 个玩具排成一排，分成若干段。对于一段 $[l,r]$，它的代价为 $(r-l+\sum_{i=L}^R c_i-L)^2$。求分段的最小代价。
+    有 $n$ 个玩具，第 $i$ 个玩具价值为 $c_i$。要求将这 $n$ 个玩具排成一排，分成若干段。对于一段 $[l,r]$，它的代价为 $(r-l+\sum_{i=l}^r c_i-L)^2$。求分段的最小代价。
     
     $1\le n\le 5\times 10^4,1\le L,0\le c_i\le 10^7$。
 
